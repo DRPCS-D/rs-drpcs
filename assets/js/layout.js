@@ -61,8 +61,8 @@
           <ul class="space-y-2 font-body-sm text-body-sm text-on-surface-variant">
             <li><a class="hover:text-primary" href="catalogo.html?cat=calzado">Calzados</a></li>
             <li><a class="hover:text-primary" href="catalogo.html?cat=remera,abrigo,pantalon">Indumentaria</a></li>
-            <li><a class="hover:text-primary" href="catalogo.html?marca=Rainha">Rainha</a></li>
-            <li><a class="hover:text-primary" href="catalogo.html?marca=Eck%C5%8D%20Unltd">Eckō Unltd</a></li>
+            <li><a class="hover:text-primary" href="catalogo.html?marca=ONEPRO">ONEPRO</a></li>
+            <li><a class="hover:text-primary" href="catalogo.html?marca=Live%20Up">Live Up</a></li>
             <li><a class="hover:text-primary" href="catalogo.html?tag=sale">Ofertas</a></li></ul></div>
         <div><h4 class="font-label-action text-label-action uppercase text-primary-container mb-space-md">Tiendas</h4>
           <ul class="space-y-2 font-body-sm text-body-sm text-on-surface-variant">

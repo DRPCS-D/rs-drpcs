@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html class="dark" lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Producto — ROCK SPORT</title>
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="assets/img/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="alternate icon" href="assets/img/favicon.ico">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,300..900;1,300..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="assets/js/tailwind-config.js"></script>
+<link rel="stylesheet" href="assets/css/rocksport.css">
+</head>
+<body class="bg-background font-body-md text-on-surface antialiased">
+<div id="site-header" data-active="catalogo"></div>
+
+<main class="w-full pt-20">
+  <div class="h-3 hazard"></div>
+  <div id="detalle" class="max-w-7xl mx-auto px-margin md:px-gutter-desktop py-space-xl"></div>
+
+  <section id="relacionados-wrap" class="hidden max-w-7xl mx-auto px-margin md:px-gutter-desktop pb-space-2xl">
+    <div class="flex items-end justify-between mb-space-md">
+      <h2 class="font-headline-md text-headline-md uppercase text-primary">También te puede <span class="text-primary-container italic">gustar</span></h2>
+      <a id="ver-mas" href="catalogo.html" class="font-label-action text-label-action uppercase text-primary-container hover:underline">Ver todo</a>
+    </div>
+    <div id="relacionados" class="grid grid-cols-2 lg:grid-cols-4 gap-space-md"></div>
+  </section>
+
+  <section class="bg-surface-container border-y border-zinc-800 py-space-lg">
+    <div class="max-w-7xl mx-auto px-margin md:px-gutter-desktop grid grid-cols-2 md:grid-cols-4 gap-space-md font-label-code text-label-code uppercase">
+      <span class="flex items-center gap-2"><span class="material-symbols-outlined text-primary-container">storefront</span>2 tiendas en CDE</span>
+      <span class="flex items-center gap-2"><span class="material-symbols-outlined text-primary-container">local_shipping</span>Envíos a todo el país</span>
+      <span class="flex items-center gap-2"><span class="material-symbols-outlined text-primary-container">loyalty</span>Fidelity Card</span>
+      <span class="flex items-center gap-2"><span class="material-symbols-outlined text-primary-container">support_agent</span>Atención por WhatsApp</span>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+<script src="assets/js/productos.data.js"></script>
+<script src="assets/js/productos.js"></script>
+<script src="assets/js/layout.js"></script>
+<script src="assets/js/producto.js"></script>
+</body>
+</html>
