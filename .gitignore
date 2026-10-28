@@ -1,0 +1,6 @@
+archivos/
+.claude/
+.vercel/
+node_modules/
+*.pdf
+*.zip

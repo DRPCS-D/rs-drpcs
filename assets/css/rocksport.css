@@ -1,0 +1,16 @@
+html { scroll-behavior: smooth; }
+body { overscroll-behavior: none; background: #0a0a0a; }
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: #0a0a0a; }
+::-webkit-scrollbar-thumb { background: #3f3f46; }
+::-webkit-scrollbar-thumb:hover { background: #fee400; }
+.material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 500, 'GRAD' 0, 'opsz' 24; }
+.hazard { background: repeating-linear-gradient(45deg, #fee400, #fee400 14px, #0a0a0a 14px, #0a0a0a 28px); }
+.hazard-lg { background: repeating-linear-gradient(45deg, #fee400, #fee400 20px, #0a0a0a 20px, #0a0a0a 40px); }
+.glow:hover { box-shadow: 0 0 20px rgba(255, 229, 0, .35); }
+:focus-visible { outline: 2px solid #fee400; outline-offset: 2px; }
+.chip-on { background: #fee400 !important; color: #0a0a0a !important; border-color: #fee400 !important; }
+.noise { background-image: radial-gradient(rgba(255,255,255,.05) 1px, transparent 1px); background-size: 3px 3px; }
+.size-btn.on { background: #fee400; color: #0a0a0a; border-color: #fee400; }
+input[type=range], input[type=checkbox] { accent-color: #fee400; }
+@media (prefers-reduced-motion: reduce) { .animate-marquee, .animate-pulse, .animate-bounce { animation: none !important; } html { scroll-behavior: auto; } }
